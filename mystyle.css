@@ -1,0 +1,76 @@
+  .container{
+    position: fixed;
+    right: 0;
+    top: 300px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(202, 93, 30);
+  }
+  
+  body{
+    padding-top: 150px;
+    margin: 0px;
+    background-image: url(1.jpg) ;
+    height: 100%;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .form-area{
+    position : absolute ;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: #080808;
+    width: 450px;
+    height: fit-content;
+    box-sizing: border-box;
+    background: rgba(255, 14, 14, 0.5);
+    padding: 40px;
+  }
+  .form-area input[type= text],
+  .form-area input[type= email]{
+    border: none;
+    top: 80%;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
+
+    color: #000000;
+    outline: none;
+    height: 40px;
+  }
+  .form-area input[type=submit]{
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: rgb(115, 146, 172);
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .form-area input[type=date]{
+    position: relative ;
+    border: none;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    color: #000000;
+    font-size: 15px;
+    background-color: rgb(34, 197, 184);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .branch{
+    position: relative;
+    color: #080808;
+    width: 900px;
+    
+  }
+  form{
+    color: rgb(0, 0, 0);
+  }
